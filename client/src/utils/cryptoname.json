@@ -1,0 +1,26 @@
+[
+  {
+    "token": "Goerli",
+    "chainName": "Eth Goerli",
+    "chainid": "5",
+    "pricefeed": "0x572dDec9087154dC5dfBB1546Bb62713147e0Ab0"
+  },
+  {
+    "token": "Mumbai Polygon",
+    "chainName": "Mumbai",
+    "chainid": "80001",
+    "pricefeed": "0x7bAC85A8a13A4BcD8abb3eB7d6b4d632c5a57676"
+  },
+  {
+    "token": "BSC Testnet",
+    "chainName": "BSC Testnet",
+    "chainid": "97",
+    "pricefeed": "0x14e613AC84a31f709eadbdF89C6CC390fDc9540A"
+  },
+  {
+    "token": "Evmos",
+    "chainName": "Evmos",
+    "chainid": "9001",
+    "pricefeed": "0x14e613AC84a31f709eadbdF89C6CC390fDc9540A"
+  }
+]

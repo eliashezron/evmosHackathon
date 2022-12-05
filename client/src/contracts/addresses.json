@@ -1,0 +1,30 @@
+{
+  "80001": {
+    "CashOut": "0xC759Bb0e3c478a787A7A59fbc553caa40668Db94",
+    "Token": {
+      "USDT": "0xc5F5CE900038C79B4F47865551823653c5032EcC",
+      "USDC": "0x5dA0fE3c987F6859BA4F34262ad1B61468d020a4"
+    }
+  },
+  "97": {
+    "CashOut": "0xafB5d29c6df9Ea4AA69F9eE0fF873DaAb9785D83",
+    "Token": {
+      "USDT": "0xc28a0B97F8d5780685a3BDaBD4d2174329dCe541",
+      "USDC": "0x88927f8f1Ac2b7C7E7C4F8EDfA12d02bEca50834"
+    }
+  },
+  "5": {
+    "CashOut": "0x833e018B765087b6be5fd4830019ec43964F8Dcb",
+    "Token": {
+      "USDT": "0xeeA9b2306Fb7b729f4E352E51CCc856aA56A96e2",
+      "USDC": "0x0F9e51d96c648aef7003bBA38044ADdf3d050663"
+    }
+  },
+  "9001": {
+    "CashOut": "0x833e018B765087b6be5fd4830019ec43964F8Dcb",
+    "Token": {
+      "USDT": "0xeeA9b2306Fb7b729f4E352E51CCc856aA56A96e2",
+      "USDC": "0x0F9e51d96c648aef7003bBA38044ADdf3d050663"
+    }
+  }
+}
