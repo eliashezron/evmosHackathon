@@ -29,15 +29,6 @@ The project only supports ERC20 tokens of stable coins of USDT and USDT funds in
 
 Kampala - Uganda, AFRICA
 
-#### Using ChainLink
-
-We implemented chainlink priceFeeds [here](https://github.com/eliashezron/chainlinkFallHackathon/blob/5a011214a1cbcba2bbc2c82df3ecaaf09f920f79/hardhat/contracts/CashOutPolygon.sol#L11) to implement minimum and maximum price deposits allowed in the contract. We also use chainlink pricefeeds to return the lastest token prices in USD which is further converted down to the local native currency in the frontend.
-
-We also used chainlink keepers compartible contract implementation [here](https://github.com/eliashezron/chainlinkFallHackathon/blob/5a011214a1cbcba2bbc2c82df3ecaaf09f920f79/hardhat/contracts/CashOutPolygon.sol#L10) to check up keep for when the contract balance exceeds the minimum balance as show [here](https://github.com/eliashezron/chainlinkFallHackathon/blob/5a011214a1cbcba2bbc2c82df3ecaaf09f920f79/hardhat/contracts/CashOutPolygon.sol#L181) we want the contract to hold. After that, it sets the tokenTrigger amount and then we use autotask to automatically withdraw the funds from the wallet after the upkeep. You can check the autotask function [here](https://github.com/eliashezron/chainlinkFallHackathon/blob/main/hardhat/autotasks/relay/scheduledAutoTask.js)
-You can also checkout the upkept contract [here](https://automation.chain.link/mumbai/32740258423833013145512229735262618558367027048672579697651042714966823209696)
-
-### Bounty Technologies Used
-
 ### Other Technologies Used
 
 2. [useDapps](https://usedapp-docs.netlify.app/docs/) we implemented useDapps as rapid framework for Dapp development. And access to contract events, [readMore](https://github.com/TrueFiEng/useDApp)
