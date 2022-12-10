@@ -29,11 +29,14 @@ The project only supports ERC20 tokens of stable coins of USDT and USDT funds in
 
 Kampala - Uganda, AFRICA
 
+### Evmos
+The project is built on multiple EVM chains but also allows users to offRamp COSMOS based ERC20 Tokens through EVMOS. In the future we intend to use evmos to allow ethereum users to interact with our application and offramp their ethereum based tokens through evmos. For this we intend on using [gravity Bridge portal](https://bridge.blockscape.network/) and [evmos IBC transfer](https://app.evmos.org/transfer).
+
 ### Other Technologies Used
 
-2. [useDapps](https://usedapp-docs.netlify.app/docs/) we implemented useDapps as rapid framework for Dapp development. And access to contract events, [readMore](https://github.com/TrueFiEng/useDApp)
-3. [ethers](https://docs.ethers.io/v5/) for interacting with the ethereum blockchain and its ecosystem.
-4. [flutterwave](developer.flutterwave.com) as a fiat payment aggregator
+1. [useDapps](https://usedapp-docs.netlify.app/docs/) we implemented useDapps as rapid framework for Dapp development. And access to contract events, [readMore](https://github.com/TrueFiEng/useDApp)
+2. [ethers](https://docs.ethers.io/v5/) for interacting with the ethereum blockchain and its ecosystem.
+3. [flutterwave](developer.flutterwave.com) as a fiat payment aggregator
 
 ### Project Description
 
